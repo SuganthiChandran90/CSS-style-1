@@ -1,0 +1,85 @@
+/* Base styles for body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #4a90e2;
+    padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+/* Main content area styles */
+main {
+    background-color: #f5f5f5;
+    font-size: 1.1em;
+    padding: 20px;
+    min-height: 60vh;
+}
+
+/* Footer styles */
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* List item styles */
+li {
+    display: inline-block;
+    width: 150px;
+    margin: 0 10px;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+}
+
+/* Additional enhancements */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    li {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+}
